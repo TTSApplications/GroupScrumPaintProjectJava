@@ -1,0 +1,138 @@
+# Fill in, commit and push each day.
+# Group Member: Jazelle Diaz (diazjaze)
+Oct 28, 2018
+	Yesterday : 
+	Today     : SUNDAY - day of rest
+	Obstacles : 
+
+Oct 29, 2018
+	Yesterday : Had a good sleep :) preparing for the amount of hours I'll stay up to complete this assignment kappa.
+	Today     : Filled contact info in members, read instructions and read through given starter code
+				Prepared for assignment with lab exercise - draw circle and circle feedback.
+	Obstacles :	
+
+Oct 30, 2018
+	Yesterday : Preparation day
+	Today     : Read through backlog tasks, thought of ideas for completing each task.
+	Obstacles : Must get in contact with group members.
+
+Oct 31, 2018
+	Yesterday : 
+	Today     : Claimed and finished UserStory2: Draw Circle Feedback. While dragging, user is able to see
+				the preview of the circle they are creating. This was simple to do since the proper creation
+				of a circle was already implemented.
+	Obstacles : 
+
+Nov 1, 2018
+	Yesterday : Completed UserStory2 : Draw Circle Feedback
+	Today     : Worked on UserStory4 : Draw Rectangle Feedback, claimed and working Bug5: Broken Squiggle.
+	Obstacles : US4 idea is to have a reference to the starting corner Point but how do we keep that
+				Point from "refreshing and changing" - an (bad) idea is to have it as a field with initial value
+				but there is a problem with getting the x and y coords from mouse events. 
+				Another idea - have an ArrayList of vertices in Rectangle.
+
+Nov 2, 2018
+	Yesterday : Bug5 attempt 1 to create Squiggles works but can be implemented better - it had some repeated code.
+	Today     : Bug5 Attempt 2. Squiggle contains a list of points and when drawn uses strokeLine to draw lines
+				connecting each point.
+	Obstacles : This will be modified again later after completion of Bug 3, 4 and other tasks that have to do with architecture
+
+
+Nov 3, 2018
+	Yesterday : Completed Bug5
+	Today     : Start working on UserStory8 : Polyline
+	Obstacles : Polyline design - should polyline be able to close to make an enclosed shape or is polyline just a collection
+				of lines. Is polyline a collection of lines (edges) or points (vertices) - which is more important?
+
+Nov 4, 2018
+	Yesterday : Comparing with built-in Polyline and Polygon.
+	Today     : Trying to fix drag and fill conflict for shapes. Working on US8 Polyline - created new class Polyline
+				What fields are necessary for Polyline? Will update the mouse handlers for when selected mode is
+				Polyline (polyline feedback).
+	Obstacles : There was a bug found for shape fill for rectangle/square
+				Error in view saying setFill method doesn't exist when it does in PaintPanel.
+
+Nov 5, 2018
+	Yesterday : Working on class Polyline and how to handle mouse events.
+	Today     : US8: Polyline - Can currently draw a polyline by clicking some place on the canvas to add a point.
+	Obstacles : Bug for shape fill not fixed, Polyline design - use strokeLine or strokePolyline? Hover/feedback for Polyline
+				not working properly - does not appear.
+
+Nov 6, 2018
+	Yesterday : Worked on polyline.
+	Today     : Finished UserStory8: Polyline
+				Polyline has a collection of points, similar to Squiggles. However when drawing a polyline, user CLICKS to add a point
+				on the canvas, then moves cursor instead of dragging to a new area. The feedback or hover shows a straight line from 
+				the point already on the canvas to the cursor until clicked again. DOUBLE CLICK ends a polyline. Selecting a new mode
+				without ending a polyline automatically ends the polyline.
+	Obstacles : Bug: Switching colors changes color for all shapes/lines
+
+Nov 7, 2018
+	Yesterday : Implemented polyline.
+	Today     : Created abstract class Shape which will be subclassed by all shape/line tools. Add fields of thickness and color.
+	Obstacles : Squiggle is currently an ArrayList<ArrayList<Point>>. Squiggle must have its own class. Will fix this implementation.
+				Trying to fix issue that changing stroke thickness and color changes for all shapes.
+
+Nov 8, 2018
+	Yesterday : Create 
+	Today     : Squiggle and Polyline updated with new color and thickness selector. Squiggle and Polyline also extend Shape.
+	Obstacles : Incorrect merge uploaded a previous version but was fixed.
+
+Nov 9, 2018
+	Yesterday : Squiggle and Polyline adaptation to SuperClass shape.
+	Today     : Research on Command Design Pattern for Bug4. 
+	Obstacles : Confused about difference between Bug4 and Bug8. The purpose of PaintModel is not clear.
+				From discussion board - said that Bug4 doesn't have to use a design pattern yet. The other
+				bugs will take care of this. Bug4 just makes PaintModel a little more flexible?
+
+Nov 10, 2018
+	Yesterday : CDP research.
+	Today     : Working on Bug4, created a new Shape superclass defined for both the open (squiggle, polyline) 
+				and enclosed shapes (circle, rect). PaintModel will have one ArrayList of all Shapes.
+				In class Shape there is a isFilled boolean which sets true if the shape should be filled. The method to set this
+				is overwritten in Poly and Squiggle so that it does nothing - isFilled will always be false.
+	Obstacles : How to define setFilled() for Squiggle and Polyline - can I override so that this method does
+				nothing for these Shape subclasses or is this bad design? 
+				Too many if statements in PaintPanel.
+	
+Nov 11, 2018
+	Yesterday : Bug4 Fix fixed the layer issue of drawn shapes. They would appear in the order the for loops were
+				in repaint() for each ArrayList of a specific shape. Now, the most recently drawn shape appears 
+				in front of previously drawn Shapes. Completing Bug4 reduced the amount of code in PaintModel but
+				moved/added some to PaintPanel. Updated individual shapes - now they all extend abstract Shape and
+				can use its fields and methods. 
+	Today     : Working on CMD for PaintPanel for Bug7.
+	Obstacles : "If statements" for mouse events still present in PaintPanel.
+	
+Nov 12, 2018
+	Yesterday : Completed Bug4
+	Today     : Reading about FactoryDesign for Bug9 and CommandDesign for Bug7 
+	Obstacles : Bug10 is supposed to take care of new shape instantiation, for now it's in PaintPanel.
+
+Nov 13, 2018
+	Yesterday : Research
+	Today     : Working on Bug7 - fixing the PaintModel to use with commands.
+				Added commandStack class, DrawingCommand, DrawSpecificShape classes.
+	Obstacles : How do all the design patterns fit into our Paint program. Looking at UML diagrams - client,
+				concrete commands, invoker, etc.
+
+Nov 14, 2018
+	Yesterday : Went to office hours for help on understanding connection (also on Nov 14)
+	Today     : Shifted to Bug9 FactoryDesign. Instead of having multiple shape fields in PaintPanel, there is one Shape and a ShapeFactory.
+				MouseEvents use this to create a new shape and modify (feedback/hover) until MouseRelease to set the final attributes of Shape.
+	Obstacles : Still confused - the description of Bug7 says each Shape implements DrawingCommand.
+				But we should have class DrawCircle, DrawSquiggle, etc. that also implement DrawingCommand - then
+				why are we told to make Shape implement DrawingCommand.
+				Bug3 moving if statements for mouse events has not yet been completed so modifying code under these will be affected later.
+				Bug7 and 10 kind of depend on each other - Bug10 Manipulators add the commands to commandStack + controls
+				MouseEvents. Will have to manually merge.
+	
+Nov 15, 2018
+	Yesterday : Implemented Bug9. Working on Bug7 implementation of CommandDesign.
+	Today     : Completed implementation of CDP. 
+				Added undo/redo feature in PaintModel. A user can undo the last performed command and
+				keep undoing whatever command is in the paintCommandStack in PaintModel.
+				User can redo undone commands in the undoStack.
+				Note: performing a new command will clear the undoStack.
+				(the usual way in similar paint programs)
+	Obstacles : Still confused - the description of Bug7 says each Shape implements DrawingCommand

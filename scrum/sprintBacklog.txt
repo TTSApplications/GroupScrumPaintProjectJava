@@ -1,0 +1,69 @@
+# Copy User Stories from the ProductBacklog 
+# to the appropriate Sprint below, after the 
+# Sprint Planning Meeting.
+
+# Sprint 1 Oct 28, 2018
+# Sprint 1 Backlog UserStories go below
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1 : lynesdan
+NAME     : Draw Circle
+--------------------------------------------------------------------------
+TYPE     : BUG 6 : lynesdan
+NAME     : Circle drawing is broken
+--------------------------------------------------------------------------
+TYPE     : USER STORY 3 : lynesdan
+NAME     : Draw Rectangle
+--------------------------------------------------------------------------
+TYPE     : USER STORY 4 : lynesdan
+NAME     : Draw Rectangle Feedback
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2 : diazjaze
+NAME     : Draw Circle Feedback
+--------------------------------------------------------------------------
+TYPE     : BUG 5 : diazjaze
+NAME     : Squiggle is broken
+--------------------------------------------------------------------------
+TYPE     : BUG 1 : laplacaa
+NAME     : Icons instead of text for drawing mode selection
+--------------------------------------------------------------------------
+TYPE     : BUG 2 : laplacaa
+NAME     : Drawing selection mode not indicated
+--------------------------------------------------------------------------
+
+# Sprint 2 Nov 4, 2018
+# Sprint 2 Backlog UserStories go below
+--------------------------------------------------------------------------
+TYPE     : USER STORY 5 : hassa153 -shahmir 
+						 -laplacaa(Completely Re-Implemented for Individual Shapes to have Unique Colors)
+NAME     : Color selector
+--------------------------------------------------------------------------
+TYPE     : USER STORY 8 : diazjaze
+NAME     : Implement Poly Line
+--------------------------------------------------------------------------
+TYPE     : BUG 4 : diazjaze
+NAME     : Architecture behind Model is poor
+--------------------------------------------------------------------------
+TYPE     : USER STORY 6 : laplacaa
+NAME     : Fill style selector
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 7 : laplacaa
+NAME     : Line thickness selector
+--------------------------------------------------------------------------
+
+# Sprint 2 Nov 11, 2018
+# Sprint 2 Backlog UserStories go below
+--------------------------------------------------------------------------
+TYPE     : BUG 3 : hassa153 / laplacaa (implementation & design)
+NAME     : Architecture behind choosing selection mode is poor
+--------------------------------------------------------------------------
+TYPE     : BUG 9 : diazjaze
+NAME     : Architecture behind choosing drawing mode is poor
+--------------------------------------------------------------------------
+TYPE     : BUG 7 : diazjaze
+NAME     : Architecture for drawing shapes can be improved
+--------------------------------------------------------------------------
+TYPE     : USER STORY 9 : diazjaze
+NAME     : undo/redo
+--------------------------------------------------------------------------

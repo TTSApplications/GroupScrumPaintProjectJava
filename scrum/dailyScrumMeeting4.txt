@@ -1,0 +1,104 @@
+# Fill in, commit and push each day.
+# Group Member: FILL THIS IN
+Oct 28, 2018
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Oct 29, 2018
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Oct 30, 2018
+	Yesterday :
+	Today     : Getting all the logistics down for group members
+	Obstacles : Cloning the repo and getting familiar with paint panel
+
+Oct 31, 2018
+	Yesterday :
+	Today     : Met Group Members and discussed how to approach the assignment
+	Obstacles : Git repo & Discord functionality
+
+Nov 1, 2018
+	Yesterday :
+	Today     : Rectangle Class
+	Obstacles : Git Branch Merging
+
+Nov 2, 2018
+	Yesterday :
+	Today     : UserStory 5 : Creating color panel class
+	Obstacles : Creating Color Panel and implementing in View
+
+Nov 3, 2018
+	Yesterday :
+	Today     : UserStory 5 : Integrating Color Chooser option in shapechooserpanel
+	Obstacles : Color button & Color Panel
+
+Nov 4, 2018
+	Yesterday :
+	Today     : UserStory 5
+	Obstacles : Implementing in Paint Panel and view
+
+Nov 5, 2018
+	Yesterday :
+	Today     : Implemented ColorPicker JavaFX and added it to shaperchooserpanel
+	            (worked with Daniel)
+	Obstacles : Accessing Fill Stroke and Adding Colorpicker to the main panel
+
+Nov 6, 2018
+	Yesterday :
+	Today     : Rest Day
+	Obstacles :
+
+Nov 7, 2018
+	Yesterday :
+	Today     : Claimed Bug 3 Architect for shape factory
+	Obstacles :
+
+Nov 8, 2018
+	Yesterday :
+	Today     : Design Methods for Bug 3
+	Obstacles : Planning the Design techniques
+
+Nov 9, 2018
+	Yesterday :
+	Today     : Rest Day
+	Obstacles :
+
+Nov 10, 2018
+	Yesterday :
+	Today     :
+	Obstacles :
+	
+Nov 11, 2018
+	Yesterday :
+	Today     : Debating between Factory Design & Strategy implementation
+	Obstacles : Pro's and Con's about both design techniques
+	
+Nov 12, 2018
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Nov 13, 2018
+	Yesterday :
+	Today     : Taking out If statements in paint panel by creating factory design
+	Obstacles : Mouse event java fx design
+
+
+Nov 14, 2018
+	Yesterday :
+<<<<<<< HEAD
+	Today     : Merging Bug 3 /10 due to similarities
+	Obstacles : Avoiding conflict with classes from other group members
+=======
+	Today     :
+	Obstacles :
+
+
+Nov 15, 2018    lynesdan
+	Yesterday :
+	Today     :Finished rectangle and got it working in four directions
+	Obstacles : Having trouble getting square to do the samething
+>>>>>>> e1bdda9cbdf02b506ca87d27431602fbd73c9a55

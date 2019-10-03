@@ -1,0 +1,112 @@
+# Fill in, commit and push each day.
+# Group Member: laplacaa
+Oct 28, 2018
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Oct 29, 2018
+	Yesterday :
+	Today     :
+	Obstacles :
+
+Oct 30, 2018
+	Yesterday :
+	Today     :Opened Assignment. Talked to group members for first time.
+	Obstacles :Using git.
+
+Oct 31, 2018
+	Yesterday :Met everyone.
+	Today     :Working on Branching and Pushing
+	Obstacles :Error when pushing
+
+Nov 1, 2018
+	Yesterday :Resolved Branching and Pushing Errors
+	Today     :BUG1
+	Obstacles :Need to lose the text beside icon, but still be able to recognize command
+
+Nov 2, 2018
+	Yesterday :Inserting Icons in buttons
+	Today     :Fixing text beside Icon
+	Obstacles :Trying to figure out how to get information of what kind of button it is
+	when it is pressed instead of using the text in the button.
+
+Nov 3, 2018
+	Yesterday :I found out about the setId and getId during my research and used those now.
+	Today     :Working on highlighting buttons when they are selected.
+	Obstacles :Had to do some research but quickly found out about ToggleButton's within
+	JavaFX that toggle and you can set them in ToggeGroup's.
+
+Nov 4, 2018
+	Yesterday :I solved how to show user they have selected an option
+	Today     :I am working on filler styles.
+	Obstacles :I am currently looking for a solution, to notify the other classes, that the
+	user has selected in the current style in View.java through menuItems.
+
+Nov 5, 2018
+	Yesterday :Finished USERSTORY6
+	Today     :Users uploaded broken version of project with missing elements after 
+	failed implementation of resorting a merge conflict.
+	Obstacles :Lost my branch with correct code after using the merge command incorrectly.
+
+Nov 6, 2018
+	Yesterday :Code was broken.
+	Today     :Trying to find member with working version of code. Found member with working code.
+	Obstacles :The code is missing pieces of filler for Circle and Rectangle, so I will attempt
+	to repair those issues.
+
+Nov 7, 2018
+	Yesterday :Fixed remaining issues with the broken code. Back on Track.
+	Today     :Working on the line thickness Selector USERSTORY7
+	Obstacles :Deciding on which way would both be aesthetically a good choice, and performance
+	with reliability.
+
+Nov 8, 2018
+	Yesterday :Accomplished Line Thickness Changer using User input.
+	Today     :Trying to figure out how to implement each thickness to individual shapes.
+	Obstacles :I believe it may have to do with the way we are implementing the Circle and 
+	drawing it on screen itself. On the other hand, I am also trying to see if I can 
+	accomplish individuality with the way it is already implemented.
+
+Nov 9, 2018
+	Yesterday :Worked on creating individuality.
+	Today     :I solved it, it had to do with the fact, that we weren't storing values
+	regarding thickness in each shape. So I created variables. Then applied the same method
+	to the broken Color Changer.
+	Obstacles :Creating the structure for uniqueness.
+
+Nov 10, 2018
+	Yesterday :Fixed all uniqueness problems.
+	Today     :I am working on doing research for BUG8. Specifically finding out what a CDP is.
+	Obstacles :Implementing it with our code.
+	
+Nov 11, 2018
+	Yesterday :Did some research on CDP
+	Today     :Implementing. Creating an interface for command.
+	Obstacles :Trying to figure out how to implement the creation of a circle outside of the
+	PaintPanel or where else it might need to be implemented.
+	
+Nov 12, 2018
+	Yesterday :Started to figure out how to use DrawingCommand
+	Today     :Got execute() to build Circle inside the circle class itself. And is still able to
+	use the circle properly. Trying to figure out how DrawingCommand can be used properly in our
+	program.
+	Obstacles :We rely on alot of local variables when drawing shapes. So is there a way I can 
+	make those public and somewhere else?
+
+Nov 13, 2018
+	Yesterday :Got an execute function working properly on circle.
+	Today     :Going to try to clean up mouseCommands.
+	Obstacles :Need to access shapes.
+
+Nov 14, 2018
+	Yesterday :Creating getFunctions for all the different shapes
+	Today     :Worked on mouseCommands and implementing them.
+	Obstacles :Trying to use NotifyChanges within the mouseCommands to without static.
+	
+Nov 15, 2018
+	Yesterday :Started working on how to implement mouseCommands with old code.
+	Today     :Got the updated code with new Shape Architecture and finished BUG10 which
+	is making the mouseCommand structure. Finished.
+	Obstacles :Adjusting some variables, coming up with and figuring out how it would work in
+	the first place.
